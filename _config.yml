@@ -1,0 +1,24 @@
+# Who are we?
+name: Manx Digital Currency Association
+
+# Markdown related stuff
+markdown: redcarpet
+pygments: true
+
+# Where the things are
+source:      ./src
+destination: ./site
+
+# Include and exclude some files
+include: 
+  - bootstrap/
+  - .htaccess
+
+# Deployment with Glynn
+#ftp_host: HOST HERE
+#ftp_dir: DIR HERE
+#ftp_passive: false
+#ftp_port: 21
+# use STDIO
+#ftp_username:
+#ftp_password:
