@@ -1,3 +1,4 @@
 *.komodoproject
 site/
 src/_sass/.sass-cache
+Gemfile*
