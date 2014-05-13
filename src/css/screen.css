@@ -27,65 +27,77 @@ html body {
   background-color: white;
   font-family: Lato, sans-serif;
 }
-/* line 41, ../_sass/src/screen.sass */
+/* line 36, ../_sass/src/screen.sass */
+html body .mainContentWrapper {
+  outline: 1px dashed pink;
+  background-color: white;
+  position: relative;
+  top: -80px;
+  padding: 20px 10%;
+}
+/* line 42, ../_sass/src/screen.sass */
+html body .sidebarWrapper {
+  outline: 1px dashed pink;
+}
+/* line 49, ../_sass/src/screen.sass */
 html .header .logo {
   margin-bottom: 15px;
 }
-/* line 43, ../_sass/src/screen.sass */
+/* line 51, ../_sass/src/screen.sass */
 html .header nav.navbar {
   background-color: black;
   border-radius: 0;
   border: none;
   margin-bottom: 0;
 }
-/* line 48, ../_sass/src/screen.sass */
+/* line 56, ../_sass/src/screen.sass */
 html .header nav.navbar ul {
   margin: 0;
 }
-/* line 50, ../_sass/src/screen.sass */
+/* line 58, ../_sass/src/screen.sass */
 html .header nav.navbar li {
   border-top-style: solid;
   border-width: 3px;
 }
-/* line 53, ../_sass/src/screen.sass */
+/* line 61, ../_sass/src/screen.sass */
 html .header nav.navbar li a {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 57, ../_sass/src/screen.sass */
+/* line 65, ../_sass/src/screen.sass */
 html .header nav.navbar li:hover {
   background-color: #42474d;
 }
-/* line 59, ../_sass/src/screen.sass */
+/* line 67, ../_sass/src/screen.sass */
 html .header nav.navbar li:hover a {
   color: white;
 }
-/* line 61, ../_sass/src/screen.sass */
+/* line 69, ../_sass/src/screen.sass */
 html .header nav.navbar li.nav1 {
   border-color: #5bbfdf;
 }
-/* line 63, ../_sass/src/screen.sass */
+/* line 71, ../_sass/src/screen.sass */
 html .header nav.navbar li.nav2 {
   border-color: #c2529e;
 }
-/* line 65, ../_sass/src/screen.sass */
+/* line 73, ../_sass/src/screen.sass */
 html .header nav.navbar li.nav3 {
   border-color: #ea1d24;
 }
-/* line 67, ../_sass/src/screen.sass */
+/* line 75, ../_sass/src/screen.sass */
 html .header nav.navbar li.nav4 {
   border-color: #92c64a;
 }
-/* line 69, ../_sass/src/screen.sass */
+/* line 77, ../_sass/src/screen.sass */
 html .header nav.navbar li.nav5 {
   border-color: #edc815;
 }
-/* line 71, ../_sass/src/screen.sass */
+/* line 79, ../_sass/src/screen.sass */
 html .header nav.navbar li.nav6 {
   border-color: #fd73fc;
 }
-/* line 76, ../_sass/src/screen.sass */
+/* line 84, ../_sass/src/screen.sass */
 html .homeBanner {
   background-image: url("../img/banners/HomeBanner11920x450.jpg");
   background-position: center;
