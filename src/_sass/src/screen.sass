@@ -6,6 +6,12 @@
 // @import "compass/reset";
 
 /**
+ * Fonts
+ */
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700)
+
+
+/**
  * Colors
  */
 $cyan: #5bbfdf
@@ -26,6 +32,11 @@ $lightgrey: #e0e0e0
 html
 	body
 		background-color: white
+		font-family: Lato, sans-serif
+	/**
+	 * Site Header
+	 * common to all pages
+	 */
 	.header
 		.logo
 			margin-bottom: 15px
@@ -33,6 +44,7 @@ html
 			background-color: black
 			border-radius: 0
 			border: none
+			margin-bottom: 0
 			ul
 				margin: 0
 			li
@@ -44,6 +56,8 @@ html
 					text-transform: uppercase
 			li:hover
 				background-color: $darkgrey
+				a
+					color: white
 			li.nav1
 				border-color: $cyan
 			li.nav2
@@ -56,4 +70,12 @@ html
 				border-color: $yellow
 			li.nav6
 				border-color: $pink
+	/**
+	 * Homepage
+	 */
+	.homeBanner
+		background-image: url('../img/banners/HomeBanner11920x450.jpg')
+		background-position: center
+		background-size: cover
+		min-height: 450px
 				
