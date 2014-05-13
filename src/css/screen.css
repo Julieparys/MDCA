@@ -19,8 +19,49 @@ html .header .logo {
 /* line 32, ../_sass/src/screen.sass */
 html .header nav.navbar {
   background-color: black;
+  border-radius: 0;
+  border: none;
 }
-/* line 34, ../_sass/src/screen.sass */
+/* line 36, ../_sass/src/screen.sass */
+html .header nav.navbar ul {
+  margin: 0;
+}
+/* line 38, ../_sass/src/screen.sass */
 html .header nav.navbar li {
-  border-top: 3px solid #5bbfdf;
+  border-top-style: solid;
+  border-width: 3px;
+}
+/* line 41, ../_sass/src/screen.sass */
+html .header nav.navbar li a {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 45, ../_sass/src/screen.sass */
+html .header nav.navbar li:hover {
+  background-color: #42474d;
+}
+/* line 47, ../_sass/src/screen.sass */
+html .header nav.navbar li.nav1 {
+  border-color: #5bbfdf;
+}
+/* line 49, ../_sass/src/screen.sass */
+html .header nav.navbar li.nav2 {
+  border-color: #c2529e;
+}
+/* line 51, ../_sass/src/screen.sass */
+html .header nav.navbar li.nav3 {
+  border-color: #ea1d24;
+}
+/* line 53, ../_sass/src/screen.sass */
+html .header nav.navbar li.nav4 {
+  border-color: #92c64a;
+}
+/* line 55, ../_sass/src/screen.sass */
+html .header nav.navbar li.nav5 {
+  border-color: #edc815;
+}
+/* line 57, ../_sass/src/screen.sass */
+html .header nav.navbar li.nav6 {
+  border-color: #fd73fc;
 }
