@@ -1,8 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 /* @author Adam Marshall <adam@appsynergy.net> @designer Julie Parys <julie.parys@arts-interactive.com> @copyright Adam Marshall, MDCA 2014 */
 html body { background-color: white; background-image: url("../img/assets/background.fw.png"); background-repeat: repeat; background-position: left top; font-family: Lato, sans-serif; }
-html body .mainContentWrapper { background-color: white; position: relative; top: -80px; padding: 20px 10%; }
-html body .container .sidebarWrapper { outline: 2px dotted pink; }
+html body .mainContentWrapper { background-color: white; position: relative; top: -80px; margin-bottom: -80px; padding: 20px 10%; min-height: 400px; box-shadow: #d8d8d8 -3px 0 2px; }
 html body .container .sidebarWrapper h1, html body .container .sidebarWrapper h2 { color: #333333; }
 html body h1, html body h2 { color: #5bbfdf; }
 html .header { background-color: white; }
@@ -33,4 +32,4 @@ html .footer h4 { margin: 0 0 20px 0; }
 html .footer ul { padding-left: 0; }
 html .footer li { list-style-type: none; }
 html .footer a { color: #444444; }
-html .homeBanner { background-image: url("../img/banners/HomeBanner11920x450.jpg"); background-position: center; background-size: cover; min-height: 250px; }
+html .pageBanner { background-image: url("../img/banners/HomeBanner11920x450.jpg"); background-position: center; background-size: cover; min-height: 250px; }

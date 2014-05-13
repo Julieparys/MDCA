@@ -16,7 +16,7 @@ banner: IsleOfManBanner1920X205.jpg
 
 ###Read More
 
-* [Isle of Man, where you can](http://www.whereyoucan.com/)
+* [Isle of Man. where you can](http://www.whereyoucan.com/)
 * [IOM Today (news site)](http://www.iomtoday.co.im/)
 * [Isle of Man on Wikipedia](https://en.wikipedia.org/wiki/Isle_of_Man)
 * [Isle of Man government homepage](http://www.gov.im/)
