@@ -21,6 +21,8 @@ html body {
     color: #333333; }
   html body h1, html body h2 {
     color: #5bbfdf; }
+  html body h3 {
+    margin-bottom: 30px; }
 html .header {
   background-color: white; }
   html .header .logo {

@@ -7,6 +7,7 @@ banner: AboutMDCA
 ---
 
 #About Us
+### ... and how we can help
 
 Our mission is simple - we exist to create and promote a jurisdiction of excellence for digital currency.
 
