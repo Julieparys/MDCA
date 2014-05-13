@@ -3,7 +3,7 @@ layout: default
 title: Contact the Manx Digital Currency Association
 permalink: contact/
 color: pink
-banner: ContactUsBanner1920X205.jpg
+banner: ContactUs
 ---
 
 #Contact Us

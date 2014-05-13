@@ -1,35 +1,105 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
-/* @author Adam Marshall <adam@appsynergy.net> @designer Julie Parys <julie.parys@arts-interactive.com> @copyright Adam Marshall, MDCA 2014 */
-html body { background-color: white; background-image: url("../img/assets/background.fw.png"); background-repeat: repeat; background-position: left top; font-family: Lato, sans-serif; }
-html body .mainContentWrapper { background-color: white; position: relative; top: -80px; margin-bottom: -80px; padding: 20px 10%; min-height: 400px; box-shadow: #d8d8d8 -3px 0 2px; }
-html body .container .sidebarWrapper h1, html body .container .sidebarWrapper h2 { color: #333333; }
-html body h1, html body h2 { color: #5bbfdf; }
-html .header { background-color: white; }
-html .header .logo { padding: 20px 10px; }
-html .header nav.navbar { background-color: black; border-radius: 0; border: none; margin-bottom: 0; }
-html .header nav.navbar .navbar-text { display: inline; color: white; border-top: 3px solid black; }
-html .header nav.navbar ul { margin: 0; }
-html .header nav.navbar li { border-top-style: solid; border-width: 3px; }
-html .header nav.navbar li a { color: white; font-weight: bold; text-transform: uppercase; }
-html .header nav.navbar li:hover { background-color: #42474d; }
-html .header nav.navbar li:hover a { color: white; }
-html body.theme-red h1, html body.theme-red h2 { color: #ea1d24; }
-html nav li.theme-red { border-color: #ea1d24; }
-html body.theme-magenta h1, html body.theme-magenta h2 { color: #c2529e; }
-html nav li.theme-magenta { border-color: #c2529e; }
-html body.theme-blue h1, html body.theme-blue h2 { color: #4aaad2; }
-html nav li.theme-blue { border-color: #4aaad2; }
-html body.theme-green h1, html body.theme-green h2 { color: #92c64a; }
-html nav li.theme-green { border-color: #92c64a; }
-html body.theme-pink h1, html body.theme-pink h2 { color: #fd73fc; }
-html nav li.theme-pink { border-color: #fd73fc; }
-html body.theme-yellow h1, html body.theme-yellow h2 { color: #edc815; }
-html nav li.theme-yellow { border-color: #edc815; }
-html body.theme-cyan h1, html body.theme-cyan h2 { color: #5bbfdf; }
-html nav li.theme-cyan { border-color: #5bbfdf; }
-html .footer { background-color: #e0e0e0; padding: 50px; margin: 0; }
-html .footer h4 { margin: 0 0 20px 0; }
-html .footer ul { padding-left: 0; }
-html .footer li { list-style-type: none; }
-html .footer a { color: #444444; }
-html .pageBanner { background-image: url("../img/banners/HomeBanner11920x450.jpg"); background-position: center; background-size: cover; min-height: 250px; }
+/* @author Adam Marshall <adam@appsynergy.net>
+ * @designer Julie Parys <julie.parys@arts-interactive.com>
+ * @copyright Adam Marshall, MDCA 2014
+ */
+html body {
+  background-color: white;
+  background-image: url("../img/assets/background.fw.png");
+  background-repeat: repeat;
+  background-position: left top;
+  font-family: Lato, sans-serif; }
+  html body .mainContentWrapper {
+    background-color: white;
+    position: relative;
+    top: -80px;
+    margin-bottom: -80px;
+    padding: 20px 10%;
+    min-height: 400px;
+    box-shadow: #d8d8d8 -3px 0 2px; }
+  html body .container .sidebarWrapper h1, html body .container .sidebarWrapper h2 {
+    color: #333333; }
+  html body h1, html body h2 {
+    color: #5bbfdf; }
+html .header {
+  background-color: white; }
+  html .header .logo {
+    padding: 20px 10px; }
+  html .header nav.navbar {
+    background-color: black;
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0; }
+    html .header nav.navbar .navbar-text {
+      display: inline;
+      color: white;
+      border-top: 3px solid black; }
+    html .header nav.navbar ul {
+      margin: 0; }
+    html .header nav.navbar li {
+      border-top-style: solid;
+      border-width: 3px; }
+      html .header nav.navbar li a {
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase; }
+    html .header nav.navbar li:hover {
+      background-color: #42474d; }
+      html .header nav.navbar li:hover a {
+        color: white; }
+html body.theme-red h1, html body.theme-red h2 {
+  color: #ea1d24; }
+html nav li.theme-red {
+  border-color: #ea1d24; }
+html body.theme-magenta h1, html body.theme-magenta h2 {
+  color: #c2529e; }
+html nav li.theme-magenta {
+  border-color: #c2529e; }
+html body.theme-lue h1, html body.theme-lue h2 {
+  color: #4aaad2; }
+html nav li.theme-lue {
+  border-color: #4aaad2; }
+html body.theme-green h1, html body.theme-green h2 {
+  color: #92c64a; }
+html nav li.theme-green {
+  border-color: #92c64a; }
+html body.theme-pink h1, html body.theme-pink h2 {
+  color: #fd73fc; }
+html nav li.theme-pink {
+  border-color: #fd73fc; }
+html body.theme-yellow h1, html body.theme-yellow h2 {
+  color: #edc815; }
+html nav li.theme-yellow {
+  border-color: #edc815; }
+html body.theme-cyan h1, html body.theme-cyan h2 {
+  color: #5bbfdf; }
+html nav li.theme-cyan {
+  border-color: #5bbfdf; }
+html .footer {
+  background-color: #e0e0e0;
+  padding: 50px;
+  margin: 0; }
+  html .footer h4 {
+    margin: 0 0 20px 0; }
+  html .footer ul {
+    padding-left: 0; }
+  html .footer li {
+    list-style-type: none; }
+  html .footer a {
+    color: #444444; }
+html .pageBanner.banner-AboutMDCA {
+  background-image: url(../img/banners/AboutMDCABanner1920X205.jpg); }
+html .pageBanner.banner-ContactUs {
+  background-image: url(../img/banners/ContactUsBanner1920X205.jpg); }
+html .pageBanner.banner-DigitalCurrency {
+  background-image: url(../img/banners/AboutDigitalCurencyBanner1920X205.jpg); }
+html .pageBanner.banner-Home {
+  background-image: url(../img/banners/HomeBanner11920x450.jpg); }
+html .pageBanner.banner-IsleOfMan {
+  background-image: url(../img/banners/IsleofManBanner1920X205.jpg); }
+html .pageBanner.banner-Members {
+  background-image: url(../img/banners/MembersBanner1920X205.jpg); }
+html .pageBanner {
+  background-position: center;
+  background-size: cover;
+  min-height: 250px; }

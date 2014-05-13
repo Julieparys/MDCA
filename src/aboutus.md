@@ -3,7 +3,7 @@ layout: default
 title: About the Manx Digital Currency Association
 permalink: about-us/
 color: magenta
-banner: AboutMDCABanner1920X205.jpg
+banner: AboutMDCA
 ---
 
 #About Us

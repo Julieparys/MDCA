@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Manx Digital Currency Association
-banner: HomeBanner1920X205.jpg
+banner: Home
 ---
 
 #Home

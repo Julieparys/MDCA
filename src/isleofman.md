@@ -3,7 +3,7 @@ layout: default
 title: About the Isle of Man
 permalink: isle-of-man/
 color: red
-banner: IsleOfManBanner1920X205.jpg
+banner: IsleOfMan
 ---
 
 #Isle of Man

@@ -17,20 +17,7 @@
 // Fonts
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700)
 
-
-// Colors
-$cyan: #5bbfdf
-$magenta: #c2529e
-$red: #ea1d24
-$cyan2: #5fcaea
-$yellow: #edc815
-$pink: #fd73fc
-$green: #92c64a
-$teal: #25ae90
-$blue: #4aaad2
-$darkgrey: #42474d
-$lightgrey: #e0e0e0
-$colors: red $red, magenta $magenta, blue $blue, green $green, pink $pink, yellow $yellow, cyan $cyan
+@import 'design'
 
 // The Styles
 html
@@ -101,8 +88,10 @@ html
 		a
 			color: #444
 	// Banner images
+	@each $b in $banners
+		.pageBanner.banner-#{nth($b,1)}
+			background-image: url(../img/banners/#{nth($b,2)})
 	.pageBanner
-		background-image: url('../img/banners/HomeBanner11920x450.jpg')
 		background-position: center
 		background-size: cover
 		min-height: 250px
