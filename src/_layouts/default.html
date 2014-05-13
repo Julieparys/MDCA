@@ -11,7 +11,18 @@
     <body>
 		{% include header.html %}
         <div class="site container">
-          {{ content }}
+			<div class="row">
+				
+				<!-- main content area -->
+				<div class="col-sm-8 col-sm-push-4">	
+					{{ content }}
+				</div>
+				
+				<!-- sidebar area -->
+				<div class="col-sm-4 col-sm-pull-8">
+					<div class="isleOfManMap">MAP GOES HERE</div>
+				</div>
+				
         </div><!-- .site -->
     </body>
 </html>
