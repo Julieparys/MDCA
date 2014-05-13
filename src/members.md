@@ -9,8 +9,8 @@ permalink: members/
 Our members encompass all areas of business related to developing a successful cryptocurrency based business. They include:
 
 * digital currency exchanges
-* digital currency Miners
-* digital currency oftware developers and providers
+* digital currency miners
+* digital currency software developers and providers
 * lawyers
 * company formation agents and taxation experts
 * datacentre and network providers
