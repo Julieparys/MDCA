@@ -2,7 +2,8 @@
 /* @author Adam Marshall <adam@appsynergy.net> @designer Julie Parys <julie.parys@arts-interactive.com> @copyright Adam Marshall, MDCA 2014 */
 html body { background-color: white; background-image: url("../img/assets/background.fw.png"); background-repeat: repeat; background-position: left top; font-family: Lato, sans-serif; }
 html body .mainContentWrapper { background-color: white; position: relative; top: -80px; padding: 20px 10%; }
-html body .sidebarWrapper { outline: 2px dotted pink; }
+html body .container .sidebarWrapper { outline: 2px dotted pink; }
+html body .container .sidebarWrapper h1, html body .container .sidebarWrapper h2 { color: #333333; }
 html body h1, html body h2 { color: #5bbfdf; }
 html .header { background-color: white; }
 html .header .logo { padding: 20px 10px; }
