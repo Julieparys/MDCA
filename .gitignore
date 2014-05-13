@@ -2,4 +2,4 @@
 site/
 src/_sass/.sass-cache
 Gemfile*
-src/img
+#src/img
