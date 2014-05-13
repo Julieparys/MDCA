@@ -114,9 +114,21 @@ html .footer {
 }
 /* line 92, ../_sass/src/screen.sass */
 html .footer h4 {
-  margin-top: 0;
+  margin: 0 0 20px 0;
+}
+/* line 94, ../_sass/src/screen.sass */
+html .footer ul {
+  padding-left: 0;
+}
+/* line 96, ../_sass/src/screen.sass */
+html .footer li {
+  list-style-type: none;
 }
 /* line 98, ../_sass/src/screen.sass */
+html .footer a {
+  color: #444444;
+}
+/* line 104, ../_sass/src/screen.sass */
 html .homeBanner {
   background-image: url("../img/banners/HomeBanner11920x450.jpg");
   background-position: center;
