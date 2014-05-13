@@ -8,6 +8,7 @@ html body h1, html body h2 { color: #5bbfdf; }
 html .header { background-color: white; }
 html .header .logo { padding: 20px 10px; }
 html .header nav.navbar { background-color: black; border-radius: 0; border: none; margin-bottom: 0; }
+html .header nav.navbar .navbar-text { display: inline; color: white; border-top: 3px solid black; }
 html .header nav.navbar ul { margin: 0; }
 html .header nav.navbar li { border-top-style: solid; border-width: 3px; }
 html .header nav.navbar li a { color: white; font-weight: bold; text-transform: uppercase; }
