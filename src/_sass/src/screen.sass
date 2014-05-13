@@ -51,7 +51,7 @@ html
 	.header
 		background-color: white
 		.logo
-			margin-bottom: 15px
+			padding: 20px 10px
 		nav.navbar 
 			background-color: black
 			border-radius: 0
@@ -82,6 +82,14 @@ html
 				border-color: $yellow
 			li.nav6
 				border-color: $pink
+	/**
+	 * Themed Page Colors
+	 */
+	$colors: red, magenta, blue, green, pink, yellow, cyan
+	@each $c in $colors
+		body.theme-#{$c}
+			h1, h2
+				color: $c
 	/**
 	 * Site Footer
 	 */

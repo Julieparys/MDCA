@@ -2,6 +2,7 @@
 layout: default
 title: About the Isle of Man
 permalink: isle-of-man/
+color: red
 ---
 
 #Isle of Man

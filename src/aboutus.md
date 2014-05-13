@@ -2,6 +2,7 @@
 layout: default
 title: About the Manx Digital Currency Association
 permalink: about-us/
+color: magenta
 ---
 
 #About Us

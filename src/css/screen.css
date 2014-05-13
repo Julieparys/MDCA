@@ -19,6 +19,9 @@ html {
    * common to all pages
    */
   /*
+   * Themed Page Colors
+   */
+  /*
    * Site Footer
    */
   /*
@@ -50,7 +53,7 @@ html .header {
 }
 /* line 53, ../_sass/src/screen.sass */
 html .header .logo {
-  margin-bottom: 15px;
+  padding: 20px 10px;
 }
 /* line 55, ../_sass/src/screen.sass */
 html .header nav.navbar {
@@ -106,29 +109,57 @@ html .header nav.navbar li.nav5 {
 html .header nav.navbar li.nav6 {
   border-color: #fd73fc;
 }
-/* line 88, ../_sass/src/screen.sass */
+/* line 91, ../_sass/src/screen.sass */
+html body.theme-red h1, html body.theme-red h2 {
+  color: red;
+}
+/* line 91, ../_sass/src/screen.sass */
+html body.theme-magenta h1, html body.theme-magenta h2 {
+  color: magenta;
+}
+/* line 91, ../_sass/src/screen.sass */
+html body.theme-blue h1, html body.theme-blue h2 {
+  color: blue;
+}
+/* line 91, ../_sass/src/screen.sass */
+html body.theme-green h1, html body.theme-green h2 {
+  color: green;
+}
+/* line 91, ../_sass/src/screen.sass */
+html body.theme-pink h1, html body.theme-pink h2 {
+  color: pink;
+}
+/* line 91, ../_sass/src/screen.sass */
+html body.theme-yellow h1, html body.theme-yellow h2 {
+  color: yellow;
+}
+/* line 91, ../_sass/src/screen.sass */
+html body.theme-cyan h1, html body.theme-cyan h2 {
+  color: cyan;
+}
+/* line 96, ../_sass/src/screen.sass */
 html .footer {
   background-color: #e0e0e0;
   padding: 50px;
   margin: 0;
 }
-/* line 92, ../_sass/src/screen.sass */
+/* line 100, ../_sass/src/screen.sass */
 html .footer h4 {
   margin: 0 0 20px 0;
 }
-/* line 94, ../_sass/src/screen.sass */
+/* line 102, ../_sass/src/screen.sass */
 html .footer ul {
   padding-left: 0;
 }
-/* line 96, ../_sass/src/screen.sass */
+/* line 104, ../_sass/src/screen.sass */
 html .footer li {
   list-style-type: none;
 }
-/* line 98, ../_sass/src/screen.sass */
+/* line 106, ../_sass/src/screen.sass */
 html .footer a {
   color: #444444;
 }
-/* line 104, ../_sass/src/screen.sass */
+/* line 112, ../_sass/src/screen.sass */
 html .homeBanner {
   background-image: url("../img/banners/HomeBanner11920x450.jpg");
   background-position: center;
