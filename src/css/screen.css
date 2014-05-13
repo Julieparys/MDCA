@@ -112,7 +112,11 @@ html .footer {
   padding: 50px;
   margin: 0;
 }
-/* line 96, ../_sass/src/screen.sass */
+/* line 92, ../_sass/src/screen.sass */
+html .footer h4 {
+  margin-top: 0;
+}
+/* line 98, ../_sass/src/screen.sass */
 html .homeBanner {
   background-image: url("../img/banners/HomeBanner11920x450.jpg");
   background-position: center;
