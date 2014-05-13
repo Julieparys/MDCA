@@ -1,168 +1,34 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/*
- * Fonts
- */
-/*
- * Colors
- */
-/*
- * The Styles
- */
-/* line 32, ../_sass/src/screen.sass */
-html {
-  /*
-   * Site Header
-   * common to all pages
-   */
-  /*
-   * Themed Page Colors
-   */
-  /*
-   * Site Footer
-   */
-  /*
-   * Homepage
-   */
-}
-/* line 33, ../_sass/src/screen.sass */
-html body {
-  background-color: white;
-  background-image: url("../img/assets/background.fw.png");
-  background-repeat: repeat;
-  background-position: left top;
-  font-family: Lato, sans-serif;
-}
-/* line 39, ../_sass/src/screen.sass */
-html body .mainContentWrapper {
-  background-color: white;
-  position: relative;
-  top: -80px;
-  padding: 20px 10%;
-}
-/* line 45, ../_sass/src/screen.sass */
-html body h1, html body h2 {
-  color: #5bbfdf;
-}
-/* line 51, ../_sass/src/screen.sass */
-html .header {
-  background-color: white;
-}
-/* line 53, ../_sass/src/screen.sass */
-html .header .logo {
-  padding: 20px 10px;
-}
-/* line 55, ../_sass/src/screen.sass */
-html .header nav.navbar {
-  background-color: black;
-  border-radius: 0;
-  border: none;
-  margin-bottom: 0;
-}
-/* line 60, ../_sass/src/screen.sass */
-html .header nav.navbar ul {
-  margin: 0;
-}
-/* line 62, ../_sass/src/screen.sass */
-html .header nav.navbar li {
-  border-top-style: solid;
-  border-width: 3px;
-}
-/* line 65, ../_sass/src/screen.sass */
-html .header nav.navbar li a {
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-/* line 69, ../_sass/src/screen.sass */
-html .header nav.navbar li:hover {
-  background-color: #42474d;
-}
-/* line 71, ../_sass/src/screen.sass */
-html .header nav.navbar li:hover a {
-  color: white;
-}
-/* line 73, ../_sass/src/screen.sass */
-html .header nav.navbar li.nav1 {
-  border-color: #5bbfdf;
-}
-/* line 75, ../_sass/src/screen.sass */
-html .header nav.navbar li.nav2 {
-  border-color: #c2529e;
-}
-/* line 77, ../_sass/src/screen.sass */
-html .header nav.navbar li.nav3 {
-  border-color: #ea1d24;
-}
-/* line 79, ../_sass/src/screen.sass */
-html .header nav.navbar li.nav4 {
-  border-color: #92c64a;
-}
-/* line 81, ../_sass/src/screen.sass */
-html .header nav.navbar li.nav5 {
-  border-color: #edc815;
-}
-/* line 83, ../_sass/src/screen.sass */
-html .header nav.navbar li.nav6 {
-  border-color: #fd73fc;
-}
-/* line 91, ../_sass/src/screen.sass */
-html body.theme-red h1, html body.theme-red h2 {
-  color: red;
-}
-/* line 91, ../_sass/src/screen.sass */
-html body.theme-magenta h1, html body.theme-magenta h2 {
-  color: magenta;
-}
-/* line 91, ../_sass/src/screen.sass */
-html body.theme-blue h1, html body.theme-blue h2 {
-  color: blue;
-}
-/* line 91, ../_sass/src/screen.sass */
-html body.theme-green h1, html body.theme-green h2 {
-  color: green;
-}
-/* line 91, ../_sass/src/screen.sass */
-html body.theme-pink h1, html body.theme-pink h2 {
-  color: pink;
-}
-/* line 91, ../_sass/src/screen.sass */
-html body.theme-yellow h1, html body.theme-yellow h2 {
-  color: yellow;
-}
-/* line 91, ../_sass/src/screen.sass */
-html body.theme-cyan h1, html body.theme-cyan h2 {
-  color: cyan;
-}
-/* line 96, ../_sass/src/screen.sass */
-html .footer {
-  background-color: #e0e0e0;
-  padding: 50px;
-  margin: 0;
-}
-/* line 100, ../_sass/src/screen.sass */
-html .footer h4 {
-  margin: 0 0 20px 0;
-}
-/* line 102, ../_sass/src/screen.sass */
-html .footer ul {
-  padding-left: 0;
-}
-/* line 104, ../_sass/src/screen.sass */
-html .footer li {
-  list-style-type: none;
-}
-/* line 106, ../_sass/src/screen.sass */
-html .footer a {
-  color: #444444;
-}
-/* line 112, ../_sass/src/screen.sass */
-html .homeBanner {
-  background-image: url("../img/banners/HomeBanner11920x450.jpg");
-  background-position: center;
-  background-size: cover;
-  min-height: 250px;
-}
+/* @author Adam Marshall <adam@appsynergy.net> @designer Julie Parys <julie.parys@arts-interactive.com> @copyright Adam Marshall, MDCA 2014 */
+html body { background-color: white; background-image: url("../img/assets/background.fw.png"); background-repeat: repeat; background-position: left top; font-family: Lato, sans-serif; }
+html body .mainContentWrapper { background-color: white; position: relative; top: -80px; padding: 20px 10%; }
+html body .sidebarWrapper { outline: 2px dotted pink; }
+html body h1, html body h2 { color: #5bbfdf; }
+html .header { background-color: white; }
+html .header .logo { padding: 20px 10px; }
+html .header nav.navbar { background-color: black; border-radius: 0; border: none; margin-bottom: 0; }
+html .header nav.navbar ul { margin: 0; }
+html .header nav.navbar li { border-top-style: solid; border-width: 3px; }
+html .header nav.navbar li a { color: white; font-weight: bold; text-transform: uppercase; }
+html .header nav.navbar li:hover { background-color: #42474d; }
+html .header nav.navbar li:hover a { color: white; }
+html body.theme-red h1, html body.theme-red h2 { color: #ea1d24; }
+html nav li.theme-red { border-color: #ea1d24; }
+html body.theme-magenta h1, html body.theme-magenta h2 { color: #c2529e; }
+html nav li.theme-magenta { border-color: #c2529e; }
+html body.theme-blue h1, html body.theme-blue h2 { color: #4aaad2; }
+html nav li.theme-blue { border-color: #4aaad2; }
+html body.theme-green h1, html body.theme-green h2 { color: #92c64a; }
+html nav li.theme-green { border-color: #92c64a; }
+html body.theme-pink h1, html body.theme-pink h2 { color: #fd73fc; }
+html nav li.theme-pink { border-color: #fd73fc; }
+html body.theme-yellow h1, html body.theme-yellow h2 { color: #edc815; }
+html nav li.theme-yellow { border-color: #edc815; }
+html body.theme-cyan h1, html body.theme-cyan h2 { color: #5bbfdf; }
+html nav li.theme-cyan { border-color: #5bbfdf; }
+html .footer { background-color: #e0e0e0; padding: 50px; margin: 0; }
+html .footer h4 { margin: 0 0 20px 0; }
+html .footer ul { padding-left: 0; }
+html .footer li { list-style-type: none; }
+html .footer a { color: #444444; }
+html .homeBanner { background-image: url("../img/banners/HomeBanner11920x450.jpg"); background-position: center; background-size: cover; min-height: 250px; }

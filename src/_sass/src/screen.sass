@@ -1,19 +1,24 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
-// @import "compass/reset";
-
-/**
- * Fonts
+//  __       __  _______    ______    ______  
+//  /  \     /  |/       \  /      \  /      \ 
+//  $$  \   /$$ |$$$$$$$  |/$$$$$$  |/$$$$$$  |
+//  $$$  \ /$$$ |$$ |  $$ |$$ |  $$/ $$ |__$$ |
+//  $$$$  /$$$$ |$$ |  $$ |$$ |      $$    $$ |
+//  $$ $$ $$/$$ |$$ |  $$ |$$ |   __ $$$$$$$$ |
+//  $$ |$$$/ $$ |$$ |__$$ |$$ \__/  |$$ |  $$ |
+//  $$ | $/  $$ |$$    $$/ $$    $$/ $$ |  $$ |
+//  $$/      $$/ $$$$$$$/   $$$$$$/  $$/   $$/
+//
+/*
+ * @author Adam Marshall <adam@appsynergy.net>
+ * @designer Julie Parys <julie.parys@arts-interactive.com>
+ * @copyright Adam Marshall, MDCA 2014
  */
+
+// Fonts
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700)
 
 
-/**
- * Colors
- */
+// Colors
 $cyan: #5bbfdf
 $magenta: #c2529e
 $red: #ea1d24
@@ -25,10 +30,9 @@ $teal: #25ae90
 $blue: #4aaad2
 $darkgrey: #42474d
 $lightgrey: #e0e0e0
+$colors: red $red, magenta $magenta, blue $blue, green $green, pink $pink, yellow $yellow, cyan $cyan
 
-/**
- * The Styles
- */
+// The Styles
 html
 	body
 		background-color: white
@@ -42,12 +46,10 @@ html
 			top: -80px
 			padding: 20px 10%
 		.sidebarWrapper
+			outline: 2px dotted pink
 		h1, h2
 			color: $cyan
-	/**
-	 * Site Header
-	 * common to all pages
-	 */
+	// Site header
 	.header
 		background-color: white
 		.logo
@@ -70,29 +72,14 @@ html
 				background-color: $darkgrey
 				a
 					color: white
-			li.nav1
-				border-color: $cyan
-			li.nav2
-				border-color: $magenta
-			li.nav3
-				border-color: $red
-			li.nav4
-				border-color: $green
-			li.nav5
-				border-color: $yellow
-			li.nav6
-				border-color: $pink
-	/**
-	 * Themed Page Colors
-	 */
-	$colors: red, magenta, blue, green, pink, yellow, cyan
+	// Themed page colors
 	@each $c in $colors
-		body.theme-#{$c}
+		body.theme-#{nth($c,1)}
 			h1, h2
-				color: $c
-	/**
-	 * Site Footer
-	 */
+				color: nth($c,2)
+		nav li.theme-#{nth($c,1)}
+			border-color: nth($c,2)
+	// Site footer
 	.footer
 		background-color: $lightgrey
 		padding: 50px
@@ -105,10 +92,7 @@ html
 			list-style-type: none
 		a
 			color: #444
-			
-	/**
-	 * Homepage
-	 */
+	// Homepage
 	.homeBanner
 		background-image: url('../img/banners/HomeBanner11920x450.jpg')
 		background-position: center
