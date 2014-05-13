@@ -1,7 +1,5 @@
 # Who are we?
 name: Manx Digital Currency Association
-defaults:
-	email: info:mdca.im
 
 # Markdown related stuff
 markdown: redcarpet

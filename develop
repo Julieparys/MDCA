@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+jekyll serve &
+jekyll build --watch &
+compass watch src/_sass
