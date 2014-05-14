@@ -64,7 +64,7 @@ html
 		background-color: white
 		.logo
 			padding: 20px 10px
-		nav.navbar 
+		nav.navbar.navbar-default
 			background-color: black
 			border-radius: 0
 			border: none
@@ -74,7 +74,7 @@ html
 				color: white
 				border-top: 3px solid black
 			ul
-				margin: 0
+				margin: 0		
 			li
 				border-top-style: solid
 				border-width: 3px
@@ -82,10 +82,17 @@ html
 					color: white
 					font-weight: bold
 					text-transform: uppercase
-			li:hover
+			li:hover, .navbar-nav>.open>a
 				background-color: $darkgrey
 				a
 					color: white
+			// Subpage nav
+			ul.dropdown-menu
+				background-color: black
+				li
+					border: none
+				li > a:hover
+					background-color: $darkgrey
 	// Themed page colors
 	@each $c in $colors
 		body.theme-#{nth($c,1)}

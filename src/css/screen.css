@@ -43,28 +43,34 @@ html .header {
   background-color: white; }
   html .header .logo {
     padding: 20px 10px; }
-  html .header nav.navbar {
+  html .header nav.navbar.navbar-default {
     background-color: black;
     border-radius: 0;
     border: none;
     margin-bottom: 0; }
-    html .header nav.navbar .navbar-text {
+    html .header nav.navbar.navbar-default .navbar-text {
       display: inline;
       color: white;
       border-top: 3px solid black; }
-    html .header nav.navbar ul {
+    html .header nav.navbar.navbar-default ul {
       margin: 0; }
-    html .header nav.navbar li {
+    html .header nav.navbar.navbar-default li {
       border-top-style: solid;
       border-width: 3px; }
-      html .header nav.navbar li a {
+      html .header nav.navbar.navbar-default li a {
         color: white;
         font-weight: bold;
         text-transform: uppercase; }
-    html .header nav.navbar li:hover {
+    html .header nav.navbar.navbar-default li:hover, html .header nav.navbar.navbar-default .navbar-nav > .open > a {
       background-color: #42474d; }
-      html .header nav.navbar li:hover a {
+      html .header nav.navbar.navbar-default li:hover a, html .header nav.navbar.navbar-default .navbar-nav > .open > a a {
         color: white; }
+    html .header nav.navbar.navbar-default ul.dropdown-menu {
+      background-color: black; }
+      html .header nav.navbar.navbar-default ul.dropdown-menu li {
+        border: none; }
+      html .header nav.navbar.navbar-default ul.dropdown-menu li > a:hover {
+        background-color: #42474d; }
 html body.theme-red h1, html body.theme-red h2 {
   color: #ea1d24; }
 html nav li.theme-red {
