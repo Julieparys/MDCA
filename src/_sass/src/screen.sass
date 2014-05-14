@@ -28,12 +28,12 @@ html
 		background-position: left top
 		font-family: Lato, sans-serif
 		.mainContentWrapper
+			min-height: 300px
 			background-color: white
 			position: relative
 			top: -80px
 			margin-bottom: -80px
 			padding: 20px 10%
-			min-height: 580px
 			box-shadow: #d8d8d8 -3px 0 2px
 		.container .sidebarWrapper
 			h1, h2
@@ -45,7 +45,9 @@ html
 				background-position: center center
 				vertical-align: top
 				background-image: url(../img/assets/TheIsleOfMan.png)
-				min-height: 420px
+				min-height: 290px
+				max-width: 290px
+				margin-bottom: 20px
 		h1
 			color: $cyan
 		h3
@@ -117,8 +119,13 @@ html
 		text-transform: uppercase
 		max-width: 300px
 		a
+			display: block
 			color: white
 			font-weight: bold
+		&:hover
+			background-color: $darkteal
+			a
+				text-decoration: none
 		.glyphicon
 			font-size: 34px
 			position: absolute

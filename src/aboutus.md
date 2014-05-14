@@ -11,4 +11,4 @@ banner: AboutMDCA
 
 Our mission is simple - we exist to create and promote a jurisdiction of excellence for digital currency.
 
-The Isle of Man is the emerging jurisdiction in the field of digital currency. Whether you are an operator or a service provider to this market the MDCA exists to help you.
+The [Isle of Man](/isle-of-man/) is the emerging jurisdiction in the field of [digital currency](/digital-currency/). Whether you are an operator or a service provider to this market the MDCA exists to help you.

@@ -5,4 +5,6 @@
 	</a>
 </div>
 
-{% include learnMore.html %}
+{% if page.name != "home" and page.name != "isleofman" %}
+	{% include learnMore.html %}
+{% endif %}
