@@ -12,12 +12,13 @@ A website for the Manx Digitial Currency Association.
 
 Relevant commands:
 
+* `sudo gem install jekyll` - Install jekyll
 * `jekyll serve --detach` - Serve on port 4000 by default
 * `jekyll build --watch` - Update site as you work
 * `compass watch src/_sass` - Update css as you work
 * `glynn --ftp-username=myuser` - Deploy to server
 
-Or to do all the things (except deploy!):
+Or to do all the things (well, serve and update anyway..):
 
-`chmod +x develop`
-`./develop`
+* `chmod +x develop`
+* `./develop`
