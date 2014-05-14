@@ -30,8 +30,8 @@ include:
   - .htaccess
 
 # Deployment with Glynn
-#ftp_host: HOST HERE
-#ftp_dir: DIR HERE
+ftp_host: 'appsynergy.net'
+ftp_dir: 'jekyll.appsynergy.net'
 #ftp_passive: false
 #ftp_port: 21
 # use STDIO
