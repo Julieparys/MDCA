@@ -9,4 +9,14 @@ banner: DigitalCurrency
 #About Digital Currency
 ###... what it is, mining and exchanges
 
-Whilst there are many types of digital currency (also known as cryptocurrency because they're based on very secure cryptographic algorithms that make them extremely difficult to forge), the most widely known of them is Bitcoin.
+There are many types of [digital currency](https://en.wikipedia.org/wiki/Digital_currency).
+
+Many digital currencies are also [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) - that is, they're based on very secure cryptographic algorithms that make them extremely difficult to forge.
+
+The most widely known of them is [Bitcoin](https://bitcoin.org/).
+
+Other popular cryptocurrencies include [Litecoin](https://litecoin.org/) and [Dogecoin](http://dogecoin.com//).
+
+Cryptocurrencies that are based-upon or similar to Bitcoin are known as **altcoins**.
+
+Coins are stored in files known as [wallets](https://en.bitcoin.it/wiki/Wallet).
