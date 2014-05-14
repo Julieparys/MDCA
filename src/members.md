@@ -1,5 +1,6 @@
 ---
 layout: default
+name: members
 title: Manx Digital Currency Association Members
 permalink: members/
 color: yellow
