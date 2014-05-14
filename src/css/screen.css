@@ -15,11 +15,19 @@ html body {
     top: -80px;
     margin-bottom: -80px;
     padding: 20px 10%;
-    min-height: 480px;
+    min-height: 580px;
     box-shadow: #d8d8d8 -3px 0 2px; }
   html body .container .sidebarWrapper h1, html body .container .sidebarWrapper h2 {
     color: #333333; }
-  html body h1, html body h2 {
+  html body .container .sidebarWrapper .isleOfManMap {
+    display: block;
+    background-size: 100%;
+    background-size: cover;
+    background-position: center center;
+    vertical-align: top;
+    background-image: url(../img/assets/TheIsleOfMan.png);
+    min-height: 420px; }
+  html body h1 {
     color: #5bbfdf; }
   html body h3 {
     margin-bottom: 30px; }
