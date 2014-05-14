@@ -16,3 +16,8 @@ Relevant commands:
 * `jekyll build --watch` - Update site as you work
 * `compass watch src/_sass` - Update css as you work
 * `glynn --ftp-username=myuser` - Deploy to server
+
+Or to do all the things (except deploy!):
+
+`chmod +x develop`
+`./develop`

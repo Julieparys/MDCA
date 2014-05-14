@@ -107,3 +107,19 @@ html .pageBanner {
   min-height: 205px; }
   html .pageBanner.banner-Home {
     min-height: 250px; }
+html .alert-success {
+  color: white;
+  background-color: #25ae90;
+  position: relative;
+  border-radius: 22px;
+  font-size: 20px;
+  text-transform: uppercase;
+  max-width: 300px; }
+  html .alert-success a {
+    color: white;
+    font-weight: bold; }
+  html .alert-success .glyphicon {
+    font-size: 34px;
+    position: absolute;
+    top: 11px;
+    right: 15px; }

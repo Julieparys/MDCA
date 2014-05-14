@@ -4,9 +4,13 @@ title: Manx Digital Currency Association
 banner: Home
 ---
 
-#Home
+#Manx Digital Currency Association
 
-###TODO: learn more
+###What is digital or cryptocurrency? Your questions answered
+
+{% include learnMore.html %}
+
+##Building the digital economy in the Isle of Man
 
 The Manx Digital Currency Association was formed to promote all aspects of both existing and emerging digital currency and its related services.
 
