@@ -32,8 +32,13 @@ html body {
   html body h1 {
     color: #5bbfdf;
     margin-bottom: 20px; }
+  html body h2 {
+    margin-top: 20px;
+    margin-bottom: 20px; }
   html body h3 {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: 20px; }
 html .header {
   background-color: white; }
   html .header .logo {
@@ -117,28 +122,40 @@ html .pageBanner {
   background-size: cover;
   min-height: 205px; }
   html .pageBanner.banner-Home {
-    min-height: 250px; }
+    min-height: 350px; }
 html .alert-success {
+  background-color: #25ae90; }
+  html .alert-success:hover {
+    background-color: #358371; }
+    html .alert-success:hover a {
+      text-decoration: none; }
+html .alert-info {
+  background-color: #ee6c4c; }
+  html .alert-info:hover {
+    background-color: #9b3219; }
+html .alert {
+  border: none;
   color: white;
-  background-color: #25ae90;
   position: relative;
   border-radius: 22px;
   font-size: 20px;
   text-transform: uppercase;
   max-width: 300px; }
-  html .alert-success a {
+  html .alert a {
     display: block;
     color: white;
     font-weight: bold; }
-  html .alert-success:hover {
-    background-color: #358371; }
-    html .alert-success:hover a {
-      text-decoration: none; }
-  html .alert-success .glyphicon {
+  html .alert .glyphicon {
     font-size: 34px;
     position: absolute;
     top: 11px;
     right: 15px; }
+  html .alert:hover a {
+    text-decoration: none; }
+html .homeBannerJumbo h1, html .homeBannerJumbo h3 {
+  color: white;
+  max-width: 400px;
+  text-shadow: black 0 1px 1px; }
 html .content-members .mainContentWrapper li {
   font-size: 18px;
   line-height: 24px; }

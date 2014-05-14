@@ -52,8 +52,13 @@ html
 		h1
 			color: $cyan
 			margin-bottom: 20px
+		h2
+			margin-top: 20px
+			margin-bottom: 20px
 		h3
 			margin-bottom: 30px
+			font-weight: normal
+			font-size: 20px
 	// Site header
 	.header
 		background-color: white
@@ -110,11 +115,21 @@ html
 		background-size: cover
 		min-height: 205px
 		&.banner-Home
-			min-height: 250px
-	// Alert / Learn more
+			min-height: 350px
+	// Alerts / Learn more etc.
 	.alert-success
-		color: white
 		background-color: $teal
+		&:hover
+			background-color: $darkteal
+			a
+				text-decoration: none
+	.alert-info
+		background-color: $orange
+		&:hover
+			background-color: $darkorange
+	.alert
+		border: none
+		color: white
 		position: relative
 		border-radius: 22px
 		font-size: 20px
@@ -124,15 +139,19 @@ html
 			display: block
 			color: white
 			font-weight: bold
-		&:hover
-			background-color: $darkteal
-			a
-				text-decoration: none
 		.glyphicon
 			font-size: 34px
 			position: absolute
 			top: 11px
 			right: 15px
+		&:hover a
+			text-decoration: none
+	// jumbo banner on homepage
+	.homeBannerJumbo
+		h1, h3
+			color: white
+			max-width: 400px
+			text-shadow: black 0 1px 1px
 	// adjust list on members page
 	.content-members .mainContentWrapper li
 		font-size: 18px

@@ -21,6 +21,14 @@
 		</div>		
 	</nav>
 	
-	<div class="pageBanner banner-{{ page.banner }}"></div>
+	<div class="pageBanner banner-{{ page.banner }}">
+		<div class="container homeBannerJumbo">
+			{% if page.name == "home" %}
+				<h1>Find out all about digital currency</h1>
+				<h3>...and how {{ site.name }} can help.</h3>
+				{% include findOutMore.html %}
+			{% endif %}
+		</div>
+	</div>
 	
 </div><!-- .header -->

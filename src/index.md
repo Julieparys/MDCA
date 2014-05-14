@@ -5,8 +5,6 @@ title: Manx Digital Currency Association
 banner: Home
 ---
 
-#Manx Digital Currency Association
-
 ###What is digital or cryptocurrency? Your questions answered
 
 {% include learnMore.html %}
