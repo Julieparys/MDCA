@@ -4,3 +4,4 @@ src/_sass/.sass-cache
 .sass-cache
 Gemfile*
 #src/img
+*.gz
