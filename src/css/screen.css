@@ -99,6 +99,10 @@ html body.theme-cyan h1, html body.theme-cyan h2 {
   color: #5bbfdf; }
 html nav li.theme-cyan {
   border-color: #5bbfdf; }
+html body.theme-blue h1, html body.theme-blue h2 {
+  color: #4aaad2; }
+html nav li.theme-blue {
+  border-color: #4aaad2; }
 html .footer {
   background-color: #e0e0e0;
   padding: 50px;
