@@ -20,3 +20,5 @@ Other popular cryptocurrencies include [Litecoin](https://litecoin.org/) and [Do
 Cryptocurrencies that are based-upon or similar to Bitcoin are known as **altcoins**.
 
 Coins are stored in files known as [wallets](https://en.bitcoin.it/wiki/Wallet).
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/Um63OQz3bjo" frameborder="0" allowfullscreen></iframe>
