@@ -2,7 +2,7 @@
 layout: default
 title: About Digital Currency
 permalink: digital-currency/
-color: green
+color: blue
 banner: DigitalCurrency
 ---
 
