@@ -165,5 +165,5 @@ html .homeBannerJumbo h1, html .homeBannerJumbo h3 {
 html .content-members .mainContentWrapper li {
   font-size: 18px;
   line-height: 24px; }
-html table td {
+html table td, html table th {
   padding: 5px; }
