@@ -18,6 +18,8 @@ name: Manx Digital Currency Association
 
 # Markdown related stuff
 markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
 pygments: true
 
 # Where the things are
