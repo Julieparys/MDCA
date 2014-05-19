@@ -164,7 +164,7 @@ html .alert {
     right: 15px; }
   html .alert:hover a {
     text-decoration: none; }
-html .homeBannerJumbo h1, html .homeBannerJumbo h3 {
+html .bannerJumbo h1, html .bannerJumbo h3 {
   color: white;
   max-width: 320px;
   text-shadow: black 0 1px 1px; }
@@ -175,8 +175,24 @@ html table {
   margin: 20px 0; }
 html table td, html table th {
   padding: 5px; }
-html .content-faq .glyphicon {
-  font-size: 16px; }
+html .content-faq .col {
+  padding-bottom: 5px; }
+html .content-faq .glyphicon-arrow-up {
+  float: right;
+  display: block;
+  word-spacing: 0;
+  color: #ee6c4c; }
+  html .content-faq .glyphicon-arrow-up a {
+    color: #ee6c4c; }
+html .content-faq .glyphicon-hand-right {
+  color: #4aaad2;
+  font-size: 20px;
+  float: left;
+  margin: 20px 0 0 10px; }
+html .content-faq p.answer {
+  padding-left: 40px;
+  background-color: white;
+  border-color: #5bbfdf; }
 html .content-faq em {
   color: #666666;
   font-style: normal; }

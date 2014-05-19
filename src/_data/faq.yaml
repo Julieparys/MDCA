@@ -11,26 +11,34 @@
 # THE SOFTWARE.
 
 - question: What are digital currencies ?
+  category: currency
   answer: Very simply - it is a new form of money that works extremely well on the Internet.
 
 - question: So it's a "virtual currency" ?
+  category: currency
   answer: No. Virtual currencies are generally tokens issued by a company for near-exclusive use on their site. Examples include loyalty or gift cards, air miles or mobile phone top-ups. Cryptocurrencies like Bitcoin are general purpose digital currency. It is programmable money. Nothing like this has ever existed before.
 
 - question: Is it easy to use ?
+  category: currency
   answer: Yes. It is much easier than other online payment systems. In many cases you simply click a link and confirm that the transaction is correct. On smartphones people tend to use QR codes because it's easier.
 
 - question: What's a QR code ?
+  category: currency
   answer: It's like a barcode but made up of black and white squares. It stores information in a way that is easy for smartphones to read.
 
 - question: So can I send 50 cents to anyone anywhere in the world ?
+  category: currency
   answer: Yes. Bitcoin works extremely well on the Internet.
   
 - question: How much would a transaction like that cost me ?
+  category: currency
   answer: Bitcoin fees depend on the size of the data to be stored not the magnitude of the transaction involved. If the above was a simple transaction it should cost about £0.10.
 
 - question: 10p to send £10 million anywhere in the world! Are you kidding me ?
+  category: currency
   answer: Nope - these processes are extremely efficient.
 
 - question: Surely that would make it easy to send money abroad ?
+  category: currency
   answer: Yes. Currently many services offering international remittances charge the person sending money home to their family significant amounts. Bitcoin greatly reduces this. With cryptocurrencies, international remittance is as easy as sending an email.
 ...

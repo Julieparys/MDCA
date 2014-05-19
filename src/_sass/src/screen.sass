@@ -156,7 +156,7 @@ html
 		&:hover a
 			text-decoration: none
 	// jumbo banner on homepage
-	.homeBannerJumbo
+	.bannerJumbo
 		h1, h3
 			color: white
 			max-width: 320px
@@ -172,8 +172,24 @@ html
 		padding: 5px
 	// about us
 	.content-faq
-		.glyphicon
-			font-size: 16px
+		.col
+			padding-bottom: 5px
+		.glyphicon-arrow-up
+			float: right
+			display: block
+			word-spacing: 0
+			color: $orange
+			a
+				color: $orange
+		.glyphicon-hand-right
+			color: $blue
+			font-size: 20px
+			float: left
+			margin: 20px 0 0 10px
+		p.answer
+			padding-left: 40px
+			background-color: white
+			border-color: $cyan
 		em
 			color: #666
 			font-style: normal
