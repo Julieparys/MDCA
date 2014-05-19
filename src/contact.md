@@ -2,7 +2,7 @@
 layout: default
 title: Contact the Manx Digital Currency Association
 permalink: contact/
-color: pink
+color: green
 banner: ContactUs
 ---
 
