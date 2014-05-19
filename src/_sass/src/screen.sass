@@ -91,10 +91,13 @@ html
 			// Subpage nav
 			ul.dropdown-menu
 				background-color: black
+				opacity: 0.8
+				margin-top: -5px
 				li
 					border: none
 				li > a:hover
 					background-color: $darkgrey
+					color: white
 	// Themed page colors
 	@each $c in $colors
 		body.theme-#{nth($c,1)}

@@ -68,11 +68,14 @@ html .header {
       html .header nav.navbar.navbar-default li:hover a, html .header nav.navbar.navbar-default .navbar-nav > .open > a a {
         color: white; }
     html .header nav.navbar.navbar-default ul.dropdown-menu {
-      background-color: black; }
+      background-color: black;
+      opacity: 0.8;
+      margin-top: -5px; }
       html .header nav.navbar.navbar-default ul.dropdown-menu li {
         border: none; }
       html .header nav.navbar.navbar-default ul.dropdown-menu li > a:hover {
-        background-color: #42474d; }
+        background-color: #42474d;
+        color: white; }
 html body.theme-red h1, html body.theme-red h2 {
   color: #ea1d24; }
 html nav li.theme-red {
