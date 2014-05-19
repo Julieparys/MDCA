@@ -8,4 +8,4 @@ banner: ContactUs
 
 #Contact Us
 
-Please contact the MDCA at info@mdca.im.
+Please contact the MDCA at [info@mdca.im](mailto:info@mdca.im).
