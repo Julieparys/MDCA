@@ -175,5 +175,8 @@ html table {
   margin: 20px 0; }
 html table td, html table th {
   padding: 5px; }
-html .content-about .glyphicon {
-  font-size: 20px; }
+html .content-faq .glyphicon {
+  font-size: 16px; }
+html .content-faq em {
+  color: #666666;
+  font-style: normal; }

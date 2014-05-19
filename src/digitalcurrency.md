@@ -35,5 +35,6 @@ The information provided in the following “Frequently Asked Questions” or **
 
 Should a reader contemplate taking any further action based on the answers provided to the **FAQs**, then they should carry out their own due diligence and take any professional advice as may be appropriate.
 
-* [UK Digital Currency Association](http://www.digitalcurrencyassociation.org.uk/digital-currency-101)
-* [Multibit](https://multibit.org/faq.html)
+* [MDCA FAQ](/digital-currency/faq)
+* [UK Digital Currency Association - Digital Currency 101](http://www.digitalcurrencyassociation.org.uk/digital-currency-101)
+* [Multibit Bitcoin FAQ](https://multibit.org/faq.html)
