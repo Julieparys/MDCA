@@ -27,3 +27,10 @@ Coins are stored in files known as [wallets](https://en.bitcoin.it/wiki/Wallet).
 
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/GmOzih6I1zs" frameborder="0" allowfullscreen></iframe>
+
+
+##Resources
+The information provided in the following “Frequently Asked Questions” or FAQs must not in any way be considered as investment or legal advice and is simply provided to help explain the workings of digital or crypto currencies. Should a reader contemplate taking any further action based on the answers provided to the FAQs, then they should carry out their own due diligence and take any professional advice as may be appropriate.
+
+[UK Digital Currency Association](http://www.digitalcurrencyassociation.org.uk/digital-currency-101)
+[Multibit](https://multibit.org/faq.html)
