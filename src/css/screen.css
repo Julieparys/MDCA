@@ -50,6 +50,8 @@ html .header {
     margin-bottom: 0; }
     html .header nav.navbar.navbar-default .navbar-text {
       display: inline;
+      padding: 15px;
+      margin: 0;
       color: white;
       border-top: 3px solid black; }
     html .header nav.navbar.navbar-default ul {
@@ -164,7 +166,7 @@ html .alert {
     text-decoration: none; }
 html .homeBannerJumbo h1, html .homeBannerJumbo h3 {
   color: white;
-  max-width: 400px;
+  max-width: 320px;
   text-shadow: black 0 1px 1px; }
 html .content-members .mainContentWrapper li {
   font-size: 18px;
@@ -173,3 +175,5 @@ html table {
   margin: 20px 0; }
 html table td, html table th {
   padding: 5px; }
+html .content-about .glyphicon {
+  font-size: 20px; }

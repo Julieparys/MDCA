@@ -1,5 +1,6 @@
 ---
 layout: default
+name: about
 title: About the Manx Digital Currency Association
 permalink: about-us/
 color: magenta
@@ -15,7 +16,7 @@ The [Isle of Man](/isle-of-man/) is the emerging jurisdiction in the field of [d
 
 ## Our Aims
 
-As well as having a mission to create and promote the Isle of Man as a jurisdiction of excellence for crypto currencies, we also aim to:
-
-Identify, promote & organize, and to create an effective channel of communication with Government in order to 
-obtain their co-ownership of the sector development process and to introduce timely legislation designed to both protect and promote.
+* to identify, promote & organise opportunities in cryptocurrency,
+* to create an effective channel of communication with Government,
+* to obtain their co-ownership of the sector development process,
+* to introduce timely legislation designed to both protect and promote.
