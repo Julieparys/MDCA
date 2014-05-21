@@ -18,7 +18,8 @@ Our members encompass all areas of business related to developing a successful c
 * company formation agents and taxation experts
 * datacentre and network providers
 * crypto currency exchanges
-* digital currency miners
 * accountancy and audit firms
 
-If you woud like to become a member or find out more, please email Tim Craine at [timcraine@iom.com](timcraine@iom.com)
+If you woud like to become a member or find out more, please email Tim Craine at [info@mdca.im][1]
+
+[1]: mailto:info@mdca.im
