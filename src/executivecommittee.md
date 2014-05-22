@@ -9,21 +9,18 @@ banner: AboutMDCA
 
 # Executive Committee
 
-| NAME             | POSITION      | EMAIL                           |
-| :-------------   |:------------- | :------------------------------ |
-| Charlie Woolnough| Chairman      | [charlie@quorum.im][1]          |
-| Jason Kelly      | Vice Chairman | [jasonfckelly@gmail.com][2]     |
-| Tim Craine       | Secretary     | [info@mdca.im][3]               |
-| Miles Benham     | Legal Adviser | [milesbenham@mannbenham.com][4] |
+| NAME             | POSITION      |
+| :-------------   |:------------- |
+| Charlie Woolnough| Chairman      |
+| Jason Kelly      | Vice Chairman |
+| Tim Craine       | Secretary     |
+| Miles Benham     | Legal Adviser |
 
 
-For general enquiries, in the first instance, please address your mail to Tim Craine, Secretary of the MDCA and send to [info@mdca.im][3].
+For general enquiries, in the first instance, please address your mail to Tim Craine, Secretary of the MDCA and send to [info@mdca.im][info].
 
+[info]: mailto:info@mdca.im
 
 [1]: mailto:charlie@quorum.im
-
 [2]: mailto:jasonfckelly@gmail.com
-
-[3]: mailto:info@mdca.im
-
-[4]: mailto:milesbenham@mannbenham.com
+[3]: mailto:milesbenham@mannbenham.com
