@@ -31,6 +31,10 @@ include:
   - bootstrap/
   - .htaccess
 
+# Plugins and other nice things
+gems:
+  - jekyll-sitemap
+
 # Deployment with Glynn
 ftp_host: 'appsynergy.net'
 ftp_dir: 'jekyll.appsynergy.net'
