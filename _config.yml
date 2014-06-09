@@ -36,8 +36,8 @@ gems:
   - jekyll-sitemap
 
 # Deployment with Glynn
-ftp_host: 'appsynergy.net'
-ftp_dir: 'jekyll.appsynergy.net'
+ftp_host: '217.23.163.46'
+ftp_dir: '/'
 #ftp_passive: false
 #ftp_port: 21
 # use STDIO
