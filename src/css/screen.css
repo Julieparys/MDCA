@@ -134,6 +134,8 @@ html .pageBanner.banner-IsleOfMan {
   background-image: url(../img/banners/IsleofManBanner1920X205.jpg); }
 html .pageBanner.banner-Members {
   background-image: url(../img/banners/MembersBanner1920X205.jpg); }
+html .pageBanner.banner-News {
+  background-image: url(../img/banners/NewsBanner1920X205.jpg); }
 html .pageBanner {
   background-position: center;
   background-size: cover;

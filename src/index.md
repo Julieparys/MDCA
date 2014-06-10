@@ -15,6 +15,15 @@ The [Manx Digital Currency Association][1] was formed to promote all aspects of 
 
 Our [members][2] encompass a wide variety of business sectors associated with [digital currency][3] from frontline operators to service providers. We have an excellent relationship with the [Isle of Man Government][4] and its financial regulators.
 
+---
+
+## Latest News
+
+{% assign post = site.posts.first %}
+<h4><a href="{{ post.url }}">{{ post.date | date_to_string }} - {{ post.title }}</a></h4>
+{{ post.excerpt }}
+<a href="{{ post.url }}">&raquo; Read more</a>
+
 [1]: /about-us/
 [2]: /members/
 [3]: /digital-currency/
