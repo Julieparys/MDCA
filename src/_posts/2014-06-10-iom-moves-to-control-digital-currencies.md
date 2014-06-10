@@ -27,7 +27,7 @@ The Minister for Economic Development John Shimmin MHK commented:
  
 Commenting on the announcement Charlie Woolnough, Chairman of the Manx Digital Currency Association, said:
  
-> "We view this as a positive step forward  towards towards establishing the Isle of Man as the domicile of choice for digital currency business.
+> "We view this as a positive step forward towards establishing the Isle of Man as the domicile of choice for digital currency business.
 
 > We trust financial institutions and other potential services providers to the sector will also gain additional comfort from this exciting new development.
 
